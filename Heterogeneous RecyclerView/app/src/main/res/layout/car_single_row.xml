@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/ivbmw"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/bmw"
+        android:scaleType="fitXY"
+        />
+
+    <TextView
+        android:id="@+id/tvBmw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="14dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        tools:text="Car Name"/>
+
+    <TextView
+        android:id="@+id/tvCompanany"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="14dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        tools:text="Car COMPANANY"/>
+
+</LinearLayout>

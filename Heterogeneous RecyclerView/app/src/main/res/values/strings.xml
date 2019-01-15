@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Heterogeneous RecyclerView</string>
+    <string name="movie">Movie</string>
+    <string name="car">Car</string>
+</resources>
